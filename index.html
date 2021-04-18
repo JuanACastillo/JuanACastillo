@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID-19</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.js"></script>
+    <script src="./javascript/app-jQ.js"></script>
+    <link rel="stylesheet" href="./css/bulma.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <section class="hero is-link">
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <h1 class="title is-size-2">COVID-19</h1>
+                <h2 class="subtitle"><a href ="https://www.juntadeandalucia.es/institutodeestadisticaycartografia/badea/informe/anual?CodOper=b3_2314&idNode=42348" target="_blank">Datos oficiales</a></h2>
+            </div>
+        </div>
+    </section>
+    <br>
+    <div class="container has-text-centered">
+        <button class="button is-link" id="IA">IA por Municipio</button>
+        <button class="button is-link" id="covid">Mapa Andalucía</button>
+    </div>
+    <br>
+    <div class="container has-text-centered">
+        <div id="provincias">
+            <button class="button is-link" id="almeria">Almería</button>
+            <button class="button is-link" id="cadiz">Cádiz</button>
+            <button class="button is-link" id="cordoba">Córdoba</button>
+            <button class="button is-link" id="granada">Granada</button>
+            <button class="button is-link" id="huelva">Huelva</button>
+            <button class="button is-link" id="jaen">Jaén</button>
+            <button class="button is-link" id="malaga">Málaga</button>
+            <button class="button is-link" id="sevilla">Sevilla</button>
+        </div>
+    </div>
+    <div class="container has-text-centered">
+        <div id="mapa">
+            <h3>Información obtenida de: <strong><a href="https://flo.uri.sh/visualisation/2148742/embed" target="_blank">https://flo.uri.sh/visualisation/2148742/embed</a></strong></h3>
+            <iframe src="https://flo.uri.sh/visualisation/2148742/embed" frameborder="0"
+                style="width: 100%; height: 800px" ;></iframe>
+        </div>
+    </div>
+    <br>
+    <div class="container has-text-centered">
+        <div id="leyenda">
+            <span class="button nivel0 has-text-white" id="n0">0 Casos</span>
+            <span class="button nivel1-50" id="n1-50">1-50</span>
+            <span class="button nivel51-150" id="n51-150">51-150</span>
+            <span class="button nivel151-250 has-text-white" id="n151-250">151-250</span>
+            <span class="button nivel250 has-text-white" id="n250">+250</span>
+        </div>
+    <div id="cargando">
+        <!-- <p>Obteniendo datos, espera...</p> -->
+    </div>
+    <br>
+    <div id="cabezera_tabla_IA">
+        <table class="table is-bordered is-striped is-narrow is-fullwidth has-text-centered" id="tabla_numeros">
+                <thead>
+                    <tr class="has-background-link has-text-centered">
+                        <th class="has-text-white">Municipio</th>
+                        <th class="has-text-white">Población</th>
+                        <th class="has-text-white">Confirmados PDIA</th>
+                        <th class="has-text-white">Confirmados PDIA 14 dias</th>
+                        <th class="has-text-white">Tasa PDIA 14 dias</th>
+                        <th class="has-text-white">Confirmados PDIA 7 dias</th>
+                        <th class="has-text-white">Total Confirmados</th>
+                        <th class="has-text-white">Curados</th>
+                        <th class="has-text-white">Fallecidos</th>
+                    </tr>
+                <tbody id="datos_por_municipio">
+                </tbody>
+                </thead>
+            </table>
+        <br>
+    </div>
+    </div>
+</body>
+
+</html>

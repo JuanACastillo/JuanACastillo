@@ -1,0 +1,500 @@
+{
+    "metainfo": {
+        "id": 38674,
+        "title": "Casos confirmados, curados y fallecidos por COVID-19 en la provincia de Málaga por distrito sanitario y municipio",
+        "subtitle": "Puede mostrar los códigos territoriales y generar mapas pulsando el icono que le interese.",
+        "activity": "Informe COVID-19 en Andalucía",
+        "source": "",
+        "periodicity": "Esta tabla se actualiza diariamente con los datos notificados al Ministerio de Sanidad",
+        "type": "C",
+        "notes": "<br /><br />"
+    },
+    "hierarchies": [
+        {
+            "url": "http://intraweb.intranet.ieca.junta-andalucia.es:8080/intranet/admin/rest/v1.0/jerarquia/11634?consultaId=38674&alias=D_TERRITORIO_0",
+            "cod": "d21_j11634",
+            "des": "Mapa sanitario",
+            "position": "f",
+            "order": 0,
+            "alias": "D_TERRITORIO_0",
+            "levels": [
+                {
+                    "id": 13225,
+                    "name": "CCAA / Continentes",
+                    "order": 0
+                },
+                {
+                    "id": 13226,
+                    "name": "Provincias / Agreg. países",
+                    "order": 1
+                },
+                {
+                    "id": 13227,
+                    "name": "Aux1",
+                    "order": 2
+                },
+                {
+                    "id": 13228,
+                    "name": "Aux2",
+                    "order": 3
+                },
+                {
+                    "id": 13229,
+                    "name": "Municipios / Países",
+                    "order": 4
+                }
+            ]
+        }
+    ],
+    "measures": [
+        {
+            "id": 275964,
+            "des": "Población",
+            "position": "c",
+            "order": 0,
+            "type": "f"
+        },
+        {
+            "id": 224150,
+            "des": "Confirmados PDIA",
+            "position": "c",
+            "order": 1,
+            "type": "m"
+        },
+        {
+            "id": 224455,
+            "des": "Confirmados PDIA 14 días",
+            "position": "c",
+            "order": 2,
+            "type": "m"
+        },
+        {
+            "id": 243966,
+            "des": "Tasa PDIA 14 días",
+            "position": "c",
+            "order": 3,
+            "type": "f"
+        },
+        {
+            "id": 237433,
+            "des": "Confirmados PDIA 7 días",
+            "position": "c",
+            "order": 4,
+            "type": "m"
+        },
+        {
+            "id": 219182,
+            "des": "Total confirmados",
+            "position": "c",
+            "order": 5,
+            "type": "m"
+        },
+        {
+            "id": 228416,
+            "des": "Curados",
+            "position": "c",
+            "order": 6,
+            "type": "m"
+        },
+        {
+            "id": 219184,
+            "des": "Fallecidos",
+            "position": "c",
+            "order": 7,
+            "type": "m"
+        }
+    ],
+    "data": [
+        [
+            {
+                "cod": [
+                    "C01",
+                    "29"
+                ],
+                "des": "Málaga"
+            },
+            {
+                "val": "1685920.0",
+                "format": "1.685.920"
+            },
+            {
+                "val": "78392.0",
+                "format": "78.392"
+            },
+            {
+                "val": "10932.0",
+                "format": "10.932"
+            },
+            {
+                "val": "648.4293442156212",
+                "format": "648,4"
+            },
+            {
+                "val": "3885.0",
+                "format": "3.885"
+            },
+            {
+                "val": "80309.0",
+                "format": "80.309"
+            },
+            {
+                "val": "46251.0",
+                "format": "46.251"
+            },
+            {
+                "val": "1186.0",
+                "format": "1.186"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "C01",
+                    "29",
+                    "03012"
+                ],
+                "des": "Axarquía"
+            },
+            {
+                "val": "170141.0",
+                "format": "170.141"
+            },
+            {
+                "val": "6411.0",
+                "format": "6.411"
+            },
+            {
+                "val": "639.0",
+                "format": "639"
+            },
+            {
+                "val": "375.5708500596564",
+                "format": "375,6"
+            },
+            {
+                "val": "147.0",
+                "format": "147"
+            },
+            {
+                "val": "6508.0",
+                "format": "6.508"
+            },
+            {
+                "val": "3482.0",
+                "format": "3.482"
+            },
+            {
+                "val": "110.0",
+                "format": "110"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "C01",
+                    "29",
+                    "03012",
+                    "04346",
+                    "29002"
+                ],
+                "des": "Alcaucín"
+            },
+            {
+                "val": "2279.0",
+                "format": "2.279"
+            },
+            {
+                "val": "54.0",
+                "format": "54"
+            },
+            {
+                "val": "0.0",
+                "format": "0"
+            },
+            {
+                "val": "0.0",
+                "format": "0,0"
+            },
+            {
+                "val": "0.0",
+                "format": "0"
+            },
+            {
+                "val": "54.0",
+                "format": "54"
+            },
+            {
+                "val": "18.0",
+                "format": "18"
+            },
+            {
+                "val": "1.0",
+                "format": "1"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "C01",
+                    "29",
+                    "03012",
+                    "04105",
+                    "29003"
+                ],
+                "des": "Alfarnate"
+            },
+            {
+                "val": "1065.0",
+                "format": "1.065"
+            },
+            {
+                "val": "34.0",
+                "format": "34"
+            },
+            {
+                "val": "1.0",
+                "format": "1"
+            },
+            {
+                "val": "93.89671361502347",
+                "format": "93,9"
+            },
+            {
+                "val": "0.0",
+                "format": "0"
+            },
+            {
+                "val": "34.0",
+                "format": "34"
+            },
+            {
+                "val": "10.0",
+                "format": "10"
+            },
+            {
+                "val": "1.0",
+                "format": "1"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "C01",
+                    "29",
+                    "03012",
+                    "04105",
+                    "29004"
+                ],
+                "des": "Alfarnatejo"
+            },
+            {
+                "val": "364.0",
+                "format": "364"
+            },
+            {
+                "val": "17.0",
+                "format": "17"
+            },
+            {
+                "val": "0.0",
+                "format": "0"
+            },
+            {
+                "val": "0.0",
+                "format": "0,0"
+            },
+            {
+                "val": "0.0",
+                "format": "0"
+            },
+            {
+                "val": "17.0",
+                "format": "17"
+            },
+            {
+                "val": "7.0",
+                "format": "7"
+            },
+            {
+                "val": "1.0",
+                "format": "1"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "C01",
+                    "29",
+                    "03012",
+                    "04385",
+                    "29005"
+                ],
+                "des": "Algarrobo"
+            },
+            {
+                "val": "6556.0",
+                "format": "6.556"
+            },
+            {
+                "val": "244.0",
+                "format": "244"
+            },
+            {
+                "val": "28.0",
+                "format": "28"
+            },
+            {
+                "val": "427.0896888346553",
+                "format": "427,1"
+            },
+            {
+                "val": "6.0",
+                "format": "6"
+            },
+            {
+                "val": "249.0",
+                "format": "249"
+            },
+            {
+                "val": "150.0",
+                "format": "150"
+            },
+            {
+                "val": "3.0",
+                "format": "3"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "C01",
+                    "29",
+                    "03012",
+                    "04057",
+                    "29009"
+                ],
+                "des": "Almáchar"
+            },
+            {
+                "val": "1817.0",
+                "format": "1.817"
+            },
+            {
+                "val": "121.0",
+                "format": "121"
+            },
+            {
+                "val": "7.0",
+                "format": "7"
+            },
+            {
+                "val": "385.2504127682994",
+                "format": "385,3"
+            },
+            {
+                "val": "1.0",
+                "format": "1"
+            },
+            {
+                "val": "121.0",
+                "format": "121"
+            },
+            {
+                "val": "90.0",
+                "format": "90"
+            },
+            {
+                "val": "4.0",
+                "format": "4"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "C01",
+                    "29",
+                    "03012",
+                    "04385",
+                    "29016"
+                ],
+                "des": "Árchez"
+            },
+            {
+                "val": "385.0",
+                "format": "385"
+            },
+            {
+                "val": "11.0",
+                "format": "11"
+            },
+            {
+                "val": "1.0",
+                "format": "1"
+            },
+            {
+                "val": "259.7402597402597",
+                "format": "259,7"
+            },
+            {
+                "val": "0.0",
+                "format": "0"
+            },
+            {
+                "val": "11.0",
+                "format": "11"
+            },
+            {
+                "val": "8.0",
+                "format": "8"
+            },
+            {
+                "val": "0.0",
+                "format": "0"
+            }
+        ],
+        [
+            {
+                "cod": [
+                    "C01",
+                    "29",
+                    "03012",
+                    "04390",
+                    "29019"
+                ],
+                "des": "Arenas"
+            },
+            {
+                "val": "1177.0",
+                "format": "1.177"
+            },
+            {
+                "val": "27.0",
+                "format": "27"
+            },
+            {
+                "val": "5.0",
+                "format": "5"
+            },
+            {
+                "val": "424.8088360237893",
+                "format": "424,8"
+            },
+            {
+                "val": "3.0",
+                "format": "3"
+            },
+            {
+                "val": "27.0",
+                "format": "27"
+            },
+            {
+                "val": "15.0",
+                "format": "15"
+            },
+            {
+                "val": "1.0",
+                "format": "1"
+            }
+        ]
+    ]
+}
